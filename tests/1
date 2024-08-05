@@ -1,0 +1,5 @@
+import pandas as pd
+from transform_trg.transform_trg import mer 
+def test_mer():
+    print(mer())
+    assert True
