@@ -4,6 +4,7 @@ def mer(load_dt='20170101'):
     cols = ['movieCd', #영화의 대표코드를 출력합니다.
        'movieNm', #영화명(국문)을 출력합니다.
         'openDt', #영화의 개봉일을 출력합니다.
+        'salesAmt',
         'audiCnt', #해당일의 관객수를 출력합니다.
         'load_dt', # 입수일자
         'multiMovieYn', #다양성영화 유무
